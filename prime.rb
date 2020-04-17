@@ -1,1 +1,3 @@
-# Add  code here!
+def prime_number(integer)
+  integer.all?{|i| i % i == 1}
+  
